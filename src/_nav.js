@@ -7,8 +7,10 @@ import {
   cilCursor,
   cilDescription,
   cilDrop,
+  cilFace,
   cilNotes,
   cilPencil,
+  cilPeople,
   cilPuzzle,
   cilSpeedometer,
   cilStar,
@@ -25,6 +27,28 @@ const _nav = [
       color: 'info',
       text: 'NEW',
     },
+  },
+  {
+    component: CNavTitle,
+    name: 'Con người',
+  },
+  {
+    component: CNavGroup,
+    name: 'Quản lý con người',
+    to: '/con-nguoi',
+    icon: <CIcon icon={cilPeople} customClassName="nav-icon" />,
+    items: [
+      {
+        component: CNavItem,
+        name: 'Phụ huynh',
+        to: '/con-nguoi/phu-huynh',
+      },
+      {
+        component: CNavItem,
+        name: 'Học sinh',
+        to: '/con-nguoi/hoc-sinh',
+      },
+    ],
   },
   {
     component: CNavTitle,
