@@ -1,5 +1,6 @@
 {
   "name": "@coreui/coreui-free-react-admin-template",
+  "author": "Nguyen Pat",
   "version": "5.0.0-rc.0",
   "description": "CoreUI Free React Admin Template",
   "homepage": ".",
@@ -11,7 +12,6 @@
     "url": "git@github.com:coreui/coreui-free-react-admin-template.git"
   },
   "license": "MIT",
-  "author": "Nguyen Pat",
   "scripts": {
     "build": "vite build",
     "lint": "eslint \"src/**/*.js\"",
